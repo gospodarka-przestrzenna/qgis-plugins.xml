@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugins>
+    <pyqgis_plugin name="Dendryt Wroclawski" version="0.1" plugin_id="3764">
+        <description>
+            <![CDATA[QGIS plugin to Manage spanning tree in network and deal with distances with MDS]]>
+        </description>
+        <author_name>
+            <![CDATA[Maciej Kamiński Politechnika Wrocławska]]>
+        </author_name>
+        <about>
+            <![CDATA[to do.]]>
+        </about>
+        <qgis_minimum_version>3.0
+            </qgis_minimum_version>
+        <homepage>
+            <![CDATA[https://github.com/gospodarka-przestrzenna/dendryt-wroclawskir]]>
+        </homepage>
+        <file_name>
+            <![CDATA[dendryt-wroclawski]]>
+        </file_name>
+        <download_url>http://qgis.0xa.pl/zips/dendryt-wroclawski.zip</download_url>
+        <repository>
+            <![CDATA[https://github.com/gospodarka-przestrzenna/dendryt-wroclawski]]>
+        </repository>
+        <tracker>
+            <![CDATA[https://github.com/gospodarka-przestrzenna/dendryt-wroclawski/issues]]>
+        </tracker>
+        <experimental>
+            <![CDATA[False]]>
+        </experimental>
+    </pyqgis_plugin>
+    <pyqgis_plugin name="All Azimuth" version="1.0" plugin_id="1414">
+        <description>
+            <![CDATA[Stores azimuth of each feature in layer field.]]>
+        </description>
+        <author_name>
+            <![CDATA[Maciej Kamiński Politechnika Wrocławska]]>
+        </author_name>
+        <about>
+            <![CDATA[Takes begining and end of each line and stores it to specified field.]]>
+        </about>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage>
+            <![CDATA[https://github.com/mk45/AllAzimuth.git]]>
+        </homepage>
+        <file_name>
+            <![CDATA[AllAzimuth]]>
+        </file_name>
+        <download_url>http://qgis.0xa.pl/zips/AllAzimuth.zip</download_url>
+        <repository>
+            <![CDATA[https://github.com/mk45/AllAzimuth.git]]>
+        </repository>
+        <tracker>
+            <![CDATA[https://github.com/mk45/AllAzimuth/issues]]>
+        </tracker>
+        <experimental/>
+    </pyqgis_plugin>
+    <pyqgis_plugin name="MongoConnector" version="1.2.3" plugin_id="3761">
+        <description>
+            <![CDATA[QGIS plugin to add geospatial data from mongodb database.]]>
+        </description>
+        <author_name>
+            <![CDATA[Maciej Kamiński Politechnika Wrocławska]]>
+        </author_name>
+        <about>
+            <![CDATA[This plugin allows you to add collection from mongodb as layer in QGIS.
+            It requires pymongo>=3.0 python plugin for mongodb access ($pip install pymongo).
+            Layer from mongodb collection is created in memory and named after collection
+            (with some random numbers). As for now save to database is not supported.
+            Please report bugs and suggestions on github issues tracker.
+            To use it just click connect button. Choose database and collection. Finally
+            Mark if geometry is like in geojson or pick proper field with geometry.
+            If geojson-style than all the geometry types are supported otherwise
+            points / lines geometries only. Other data in collection are added as
+            feature attributes. Data in "properties" field can be used as data
+            if key was found. See examples for details.]]>
+        </about>
+        <qgis_minimum_version>3.0</qgis_minimum_version>
+        <homepage>
+            <![CDATA[https://github.com/gospodarka-przestrzenna/MongoConnector]]>
+        </homepage>
+        <file_name>
+            <![CDATA[MongoConnector]]>
+        </file_name>
+        <download_url>http://qgis.0xa.pl/zips/MongoConnector.zip</download_url>
+        <repository>
+            <![CDATA[https://github.com/gospodarka-przestrzenna/MongoConnector]]>
+        </repository>
+        <tracker>
+            <![CDATA[https://github.com/gospodarka-przestrzenna/MongoConnector/issues]]>
+        </tracker>
+        <experimental>
+            <![CDATA[False]]>
+        </experimental>
+    </pyqgis_plugin>
+</plugins>
+
