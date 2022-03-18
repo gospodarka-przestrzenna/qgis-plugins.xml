@@ -56,7 +56,7 @@
         </tracker>
         <experimental/>
     </pyqgis_plugin>
-    <pyqgis_plugin name="LPIS" version="1.3.1" plugin_id="1224">
+    <pyqgis_plugin name="LPIS GP" version="1.3.1" plugin_id="1224">
         <description>
             <![CDATA[przeciecie]]>
         </description>
