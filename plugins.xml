@@ -71,7 +71,7 @@
             <![CDATA[https://github.com/gospodarka-przestrzenna/qgis-lpis-plugin.git]]>
         </homepage>
         <file_name>
-            <![CDATA[AllAzimuth]]>
+            <![CDATA[qgis-lpis-plugin]]>
         </file_name>
         <download_url>http://qgis.0xa.pl/zips/qgis-lpis-plugin.zip</download_url>
         <repository>
